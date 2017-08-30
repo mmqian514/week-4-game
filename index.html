@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  <title>CrystalsCollector</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row header">
+    <h1>CrystalsCollector!</h1>
+    </div>
+    <div class="row">
+      <p>You will be given a random number at the start of the game.</p>
+      <p>There are four party logos below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+      <p>You will the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+      <p>The value of each crystal is hidden from you until you click on it.</p>
+      <p>Each time when the game starts, the game will change the value of each crystal.</p>
+    </div>
+    <div class="row">
+    <h1 id="target">42</h1>
+    </div>
+    <div class="row">
+    <h4 id="wins">Wins: 0</h4>
+    <h4 id="losses">Losses: 0</h4>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <img style="width: 100%" id="crystal1" src="assets/images/libertarian.png">
+      </div>
+    <div class="col-md-3">
+        <img style="width: 100%" id="crystal2" src="assets/images/republican.png">
+      </div>
+      <div class="col-md-3">
+        <img style="width: 100%" id="crystal3" src="assets/images/democrat.png">
+      </div>
+      <div class="col-md-3">
+        <img style="width: 100%" id="crystal4" src="assets/images/tea.png">
+      </div>
+    </div>
+    <div class="row">
+    <p>Your total score is:</p>
+    </div>
+    <div class="row">
+    <h1 id="score">0</h1>
+    </div>
+    <div class="row">
+      <div class="footer">
+        <p>Copyright &copy 2017 Martin Qian</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
